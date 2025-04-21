@@ -2,10 +2,10 @@
 
 ## A simple journal app (with a few side things too).
 
-<p>
-    <img src="Photos/screenshot1.png">
-    <img src="Photos/screenshot2.png">
-    <img src="Photos/screenshot3.png">
+<p float="left">
+    <img src="Photos/screenshot1.png" width="150">
+    <img src="Photos/screenshot2.png" width="150">
+    <img src="Photos/screenshot3.png" width="150">
 </p>
 
 ## Features
