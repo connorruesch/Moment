@@ -3,9 +3,9 @@
 ## A simple journal app (with a few side things too).
 
 <p>
-    <img src="photos/screenshot1.png">
-    <img src="photos/screenshot2.png">
-    <img src="photos/screenshot3.png">
+    <img src="Photos/screenshot1.png">
+    <img src="Photos/screenshot2.png">
+    <img src="Photos/screenshot3.png">
 </p>
 
 ## Features
