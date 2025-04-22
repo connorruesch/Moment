@@ -41,7 +41,7 @@ struct ContentView: View {
                     }
                 }
                 .padding(.horizontal, 10)
-                
+                            
                 CreateNewButtonView()
             }
             .navigationTitle("Your Journal")

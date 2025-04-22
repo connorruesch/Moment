@@ -32,13 +32,13 @@ struct CreateEntryView: View {
         Task {
             do {
                 let res: NewsResponse = try await NewsService.fetchNews()
-                let headline = res.articles.first!.title
-                let image = res.articles.first!.urlToImage
-                let source = res.articles.first!.source.name
+                let headline = res.articles[0].title
+                let image = res.articles[0].urlToImage
+                let source = res.articles[0].source.name
                 
-                newsHeadline = headline
-                newsImage = image
-                newsSource = source
+                newsHeadline = headline ?? "No Headline"
+                newsImage = image ?? "No Image"
+                newsSource = source ?? "No Source"
             } catch {
                 print("Error: \(error)")
             }
